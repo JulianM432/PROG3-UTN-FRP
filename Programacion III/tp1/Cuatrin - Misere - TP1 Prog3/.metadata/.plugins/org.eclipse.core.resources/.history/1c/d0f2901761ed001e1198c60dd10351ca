@@ -1,0 +1,26 @@
+package tp0000001;
+
+
+public class Profesor extends Persona implements Comparable<Profesor>{
+
+	int legajo;
+	String titulo;
+
+	Profesor(int id, int edad, int dni, String nombre, String apellido, int legajo, String titulo) {
+		super(id, edad, dni, nombre, apellido);
+		this.legajo = legajo;
+		this.titulo = titulo;
+	}
+	
+	public String toString()
+	{
+		String datos = id + "\t";
+		datos += edad + "\t";
+		datos += dni + "\t";
+		datos += nombre + "\t";
+		datos += apellido + "\t";
+		datos += legajo + "\t";
+		datos += titulo;
+		return datos;
+	}
+}

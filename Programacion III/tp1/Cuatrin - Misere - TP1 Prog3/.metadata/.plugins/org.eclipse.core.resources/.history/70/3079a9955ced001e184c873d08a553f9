@@ -1,0 +1,16 @@
+package tp0000001;
+
+
+public class Alumno extends Persona {
+	int nroLE;
+	int materiasAprobadas;
+	float promedio;
+
+	Alumno(int id, int edad, int dni, String nombre, String apellido, int nroLE, int materiasAprobadas,
+			float promedio) {
+		super(id, edad, dni, nombre, apellido);
+		this.nroLE = nroLE;
+		this.materiasAprobadas = materiasAprobadas;
+		this.promedio = promedio;
+	}
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia 2 HTML</title>
+</head>
+<body>
+    <section>
+        <video src="./tortuga.mp4" autoplay controls muted height="300" width="450"></video>
+    </section>
+    <section><audio src="./tortuga.mp4" controls autoplay></audio></section>
+    <article>
+        <table id="id_tabla_1" class="tabla_guia2">
+            <caption>Brasil 2014</caption>
+            <tr>
+                <td>Alemania</td>
+                <td>Brasil</td>
+            </tr>
+        </table>
+        <table id="id_tabla_2" class="tabla_guia2">
+            <caption>Titulo descriptivo a la tabla 2</caption>
+            <tr>
+                <th></th>
+                <th>h</th>
+                <th>h</th>
+                <th>h</th>
+                <th>h</th>
+            </tr>
+            <tr>
+                <th>a</th>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <th>b</th>
+                <td>b</td>
+                <td>b</td>
+                <td>b</td>
+                <td>b</td>
+            </tr>
+            <tr>
+                <th>c</th>
+                <td>c</td>
+                <td>c</td>
+                <td>c</td>
+                <td>c</td>
+            </tr>
+            <tr>
+                <th>d</th>
+                <td>d</td>
+                <td>d</td>
+                <td>d</td>
+                <td>d</td>
+            </tr>
+            </table>
+            <table id="id_tabla_3" class="tabla_guia2">
+                <caption>Titulo descriptivo a la tabla 3</caption>
+                <tr>
+                    <th></th>
+                    <th>x</th>
+                    <th>x</th>
+                    <th>x</th>
+                </tr>
+                <tr>
+                    <th>a</th>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                </tr>
+                <tr>
+                    <th>b</th>
+                    <td>b</td>
+                    <td>b</td>
+                    <td>b</td>
+                </tr>
+                <tr>
+                    <th>c</th>
+                    <td colspan="3">c</td>
+                    <td>c</td>
+                    <td>c</td>
+                </tr>
+            </table>
+            </article>
+            <div>
+                <form action="" method="post" autocomplete="on">
+                    <label for="nombre">Nombre:<input type="text" name="nombre" id="nombre"></label>
+                    <label for="apellido">Apellido:<input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido"></label>
+                    <label for="vehiculos">
+                        <input type="radio" name="vehiculos" id="vehiculos" value="moto">Moto
+                        <input type="radio" name="vehiculos" id="vehiculos" value="auto">Auto
+                    </label>
+                    <label for="animal">
+                        <input type="checkbox" name="animal" id="animal" value="perro">Perro
+                        <input type="checkbox" name="animal" id="animal" value="gato">Gato
+                    </label>
+                    <input type="text" name="campoBloqueado" disabled value="Aprendiendo HTML">
+                    <input type="hidden" name="noVisible" value="superOculto">
+                    <label for="clave">Clave:<input type="password" name="password" id="clave"></label>
+                    <label for="unArchivo"><input type="file" name="archivo" id="unArchivo"></label>
+                    <label for="email">Correo:<input type="email" name="email" id="email"></label>
+                    <label for="fecha">Fecha: <input type="date" name="fecha" id="fecha" min="2000-01-01" max="2012-12-12"></label>
+                    <label for="idiomas">
+                        <select name="idioma" id="idiomas" size="3">
+                            <option value="esp" selected>Español</option>
+                            <option value="por">Portugues</option>
+                            <option value="eng">Ingles</option>
+                        </select>
+                    </label>
+                    <label for="lenguajes">
+                        <select name="lenguajes[]" id="lenguajes" multiple>
+                            <option value="php">PHP</option>
+                            <option value="java">Java</option>
+                            <option value="python">Python</option>
+                            <option value="ruby">Ruby</option>
+                        </select>
+                    </label>
+                    <label for="comentario"><textarea name="comentario" id="comentario" rows="5" cols="60"></textarea></label>
+                    <input type="submit" value="Aceptar">
+                </form>
+            </div>
+            </body>
+        
+            </html>

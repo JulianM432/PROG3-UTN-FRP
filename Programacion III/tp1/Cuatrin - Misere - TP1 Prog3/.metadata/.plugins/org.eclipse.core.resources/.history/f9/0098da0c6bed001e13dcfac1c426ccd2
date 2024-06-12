@@ -1,0 +1,38 @@
+package tp0000001;
+
+public class Persona {
+	private int id;
+	private int edad;
+	private int dni;
+	private String nombre;
+	private String apellido;
+
+	Persona(int id, int edad, int dni, String nombre, String apellido) {
+		this.id = id;
+		this.edad = edad;
+		this.dni = dni;
+		this.nombre = nombre;
+		this.apellido = apellido;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public int getEdad() {
+		return edad;
+	}
+
+	public long getDni() {
+		return dni;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public String getApellido() {
+		return apellido;
+	}
+	
+}

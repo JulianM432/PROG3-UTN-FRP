@@ -1,0 +1,17 @@
+package clase3;
+
+public class Persona {
+	int id;
+	int edad;
+	int dni;
+	String nombre;
+	String apellido;
+
+	Persona(int id, int edad, int dni, String nombre, String apellido) {
+		this.id = id;
+		this.edad = edad;
+		this.dni = dni;
+		this.nombre = nombre;
+		this.apellido = apellido;
+	}
+}

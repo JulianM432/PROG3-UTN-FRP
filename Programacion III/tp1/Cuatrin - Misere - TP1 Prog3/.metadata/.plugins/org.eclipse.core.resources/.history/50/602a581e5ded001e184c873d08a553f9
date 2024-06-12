@@ -1,0 +1,35 @@
+package tp0000001;
+
+
+public class Alumno extends Persona implements Comparable<Alumno>{
+	int nroLE;
+	int materiasAprobadas;
+	float promedio;
+
+	Alumno(int id, int edad, int dni, String nombre, String apellido, int nroLE, int materiasAprobadas,
+			float promedio) {
+		super(id, edad, dni, nombre, apellido);
+		this.nroLE = nroLE;
+		this.materiasAprobadas = materiasAprobadas;
+		this.promedio = promedio;
+	}
+	
+	public String toString()
+	{
+		String datos = id + "\t";
+		datos += edad + "\t";
+		datos += dni + "\t";
+		datos += nombre + "\t";
+		datos += apellido + "\t";
+		datos += nroLE + "\t";
+		datos += materiasAprobadas + "\t";
+		datos += promedio;
+		return datos;
+	}
+	
+	public int compareTo()
+	{
+		
+		return 0;
+	}
+}
